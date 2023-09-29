@@ -48,7 +48,7 @@ body a {
 
 .whatsapp {
     margin: 0.3rem 0 0.3rem 0;
-    height: 6.25vh;
+    height: 8cqh;
     display: flex;
     justify-content: space-between;
 }
@@ -76,6 +76,11 @@ body a {
     padding: 9%;
 }
 
+.whatsapp .telefono {
+    height: auto;
+    width: auto;
+}
+
 .whatsapp .telefono a {
     color: red;
     margin:0;
@@ -83,7 +88,7 @@ body a {
 }
 
 .whatsapp .telefono p {
-    font-size: 3.1rem;
+    font-size: 3.2rem;
     font-weight: 900;
     letter-spacing: 0.5;
     padding: 0;
@@ -91,7 +96,7 @@ body a {
 }
 
 .contenido {
-    margin:1.3rem 0 0 0;
+    margin:0;
 }
 
 .link a{
