@@ -51,6 +51,7 @@ body a {
     height: 8cqh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .whatsapp .logowhatsapp {
@@ -76,27 +77,23 @@ body a {
     padding: 9%;
 }
 
-.whatsapp .telefono {
-    height: auto;
-    width: auto;
-}
-
 .whatsapp .telefono a {
     color: red;
     margin:0;
     padding: 0;
 }
 
-.whatsapp .telefono p {
-    font-size: 3.2rem;
+.whatsapp .telefono a p {
+    font-size: 2.7rem;
     font-weight: 900;
     letter-spacing: 0.5;
     padding: 0;
     margin: 0;
+
 }
 
 .contenido {
-    margin: 0;
+    margin:0;
 }
 
 .link a{
@@ -198,11 +195,3 @@ body a {
     margin: 0.2rem;
     position: relative;
 }
-
-/* .footer .redes .logored a {
-    position: absolute;
-    height: 80%;
-    width: 80%;
-    left: 10%;
-    top: 10%;
-} */
