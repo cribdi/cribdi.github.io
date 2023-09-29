@@ -169,10 +169,12 @@ body a {
 
 .footer .redes .logored {
     background-color: #FF0000;
+    box-sizing: border-box;
     width: 8vh;
     height: 8dvh;
     align-items: center;
     border-radius: 8px;
     margin: 0.5%;
+    padding: 2%;
 }
 
