@@ -47,7 +47,7 @@ body a {
 
 .whatsapp {
     margin: 1.5% 0;
-    height: 8vh;
+    height: 9vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +83,7 @@ body a {
 }
 
 .whatsapp .telefono a p {
-    font-size: 2.7rem;
+    font-size: 2.9rem;
     font-weight: 900;
     letter-spacing: 0.5;
     padding: 0;
@@ -106,23 +106,23 @@ body a {
 }
 
 .inicadulto a{
-    background-position-y: 3rem;
+    background-position-y: -20rem;
 }
 
 .inicninios a{
-    background-position-y: 6rem;
+    background-position-y: -15rem;
 }
 
 .disciplina a{
-    background-position-y: 9rem;
+    background-position-y: -5rem;
 }
 
 .escuela a{
-    background-position-y: 12rem;
+    background-position-y: 0rem;
 }
 
 .eventos a{
-    background-position-y: 15rem;
+    background-position-y: 5rem;
 }
 
 .link .logoclase {
