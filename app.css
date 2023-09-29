@@ -176,5 +176,13 @@ body a {
     border-radius: 8px;
     margin: 0.5%;
     padding: 2%;
+    position: relative;
 }
 
+.footer .redes .logored a {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+}
