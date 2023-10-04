@@ -51,6 +51,8 @@ body a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 0; /* Inicialmente, ocultamos el contenido */
+    transition: opacity 1s; /* Aplicamos una transición de 1 segundo a la propiedad de opacidad */
 }
 
 .whatsapp .logowhatsapp {
@@ -93,6 +95,8 @@ body a {
 
 .contenido {
     margin:0;
+    opacity: 0; 
+    transition: opacity 1.5s; 
 }
 
 .link a{
@@ -196,3 +200,10 @@ body a {
     position: relative;
 }
 
+body.loaded .contenido {
+    opacity: 1;
+}
+
+body.loaded .whatsapp {
+    opacity: 1;
+}
