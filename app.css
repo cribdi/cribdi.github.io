@@ -1,3 +1,7 @@
+:root{
+    --brand-color: #FF0000;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 2%;
@@ -58,7 +62,7 @@ body a {
 .whatsapp .logowhatsapp {
     height: 8vh;
     width: 8vh;
-    background-color:  #FF0000;
+    background-color: var(--brand-color);
     border-radius: 8px;
     position: relative;
 }
@@ -79,7 +83,7 @@ body a {
 }
 
 .whatsapp .telefono a {
-    color: #FF0000;
+    color: var(--brand-color);
     margin:0;
     padding: 0;
 }
@@ -163,7 +167,7 @@ body a {
 .footer .mensaje p {
     padding: 0;
     margin:0;
-    color: #FF0000;
+    color: var(--brand-color);
     font-weight: 900;
     text-align: center;
 }
@@ -189,7 +193,7 @@ body a {
 }
 
 .footer .redes .logored  {
-    background-color: #FF0000;
+    background-color: var(--brand-color);
     margin: 0;
     padding: 0;
     width: 8vh;
